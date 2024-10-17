@@ -37,12 +37,12 @@ public class Desafio1 {
             System.out.println("3. Sair");
             System.out.print("Escolha uma opção: ");
             int opcao = scanner.nextInt();
-            scanner.nextLine(); // Limpar o buffer
+            scanner.nextLine();
 
             if (opcao == 1) {
                 System.out.print("ID: ");
                 int id = scanner.nextInt();
-                scanner.nextLine(); // Limpar o buffer
+                scanner.nextLine();
                 System.out.print("Nome: ");
                 String nome = scanner.nextLine();
                 System.out.print("E-mail: ");
