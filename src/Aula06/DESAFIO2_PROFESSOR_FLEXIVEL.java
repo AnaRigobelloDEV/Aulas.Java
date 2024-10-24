@@ -72,6 +72,6 @@ public class DESAFIO2_PROFESSOR_FLEXIVEL {
         System.out.println(tabela);
     }
 
-    private static void deletarUsuario() {
+    private static void deletarUsuario()  {
     }
 }

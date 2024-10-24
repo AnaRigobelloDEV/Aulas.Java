@@ -27,6 +27,7 @@ public class DESAFIO1_PROFESSOR {
         }
 for (int linhas = 0; linhas < matrizCadastro.length; linhas++){
             System.out.println(matrizCadastro[linhas][0]+"\t"+matrizCadastro[linhas][1]+"\t\t\t" + matrizCadastro[linhas][2]+"\t\t\t"+matrizCadastro[linhas][3]);
+
         }
     }
 }
