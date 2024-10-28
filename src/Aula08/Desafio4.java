@@ -4,7 +4,7 @@ import java.io.*;
 import java.util.Scanner;
 
 public class Desafio4 {
-    private static final String ARQUIVO = "bancoDeDados.txt"; // Nome do arquivo
+    private static final String ARQUIVO = "G:\\AnaRigobello\\NOTES RAFA DEV\\bancoDeDados.txt"; // Nome do arquivo
     private static String[][] usuarios = new String[100][4]; // Matriz para armazenar até 100 usuários
     private static int contador = 0; // Contador de usuários
 
