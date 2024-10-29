@@ -11,7 +11,7 @@ dados, agora vamos expandir o programa para torná-lo mais
 completo e fácil de manter.*/
 
 
-    private static String[][] registros = new String[100][2]; // 100 registros, 2 campos (nome e email)
+    private static String[][] registros = new String[100][2];
     private static int contador = 0; // Contador para o número de registros
 
     public static void main(String[] args) {
@@ -26,7 +26,7 @@ completo e fácil de manter.*/
             System.out.println("0. Sair");
             System.out.print("Escolha uma opção: ");
             opcao = scanner.nextInt();
-            scanner.nextLine(); // Limpar o buffer
+            scanner.nextLine();
 
             switch (opcao) {
                 case 1:
